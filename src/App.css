@@ -41,8 +41,8 @@ body {
 
 .sidebar button:hover {
   box-shadow: -0.5em -0.5em 0 #1f1f1f;
-  background-color: #dd6395;
-  border-color: #dd6395;
+  background-color: #1fa974;
+  border-color: #0c734c;
   color: #fff;
 }
 
@@ -210,8 +210,3 @@ button:active {
   color: var(--text);
 }
 
-@media (max-width: 450px) {
-  .calculator {
-    max-width: 95%;
-  }
-}
