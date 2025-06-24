@@ -62,7 +62,7 @@ export default function App() {
   }
 
     return (
-    <div className={`main ${showTheme ? "dark-mode" : "light-mode"}`}>
+    <div className={`main ${showTheme ? "light-mode" : "dark-mode"}`}>
       <div className="sidebar">
         <Button id="toggle-theme" onClick={() => setShowTheme(!showTheme)}>Theme</Button>
         <Button id="toggle-history" onClick={() => setShowHistory(!showHistory)}>History</Button>
